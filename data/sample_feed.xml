@@ -1,1 +1,56 @@
-# placeholder
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Tech Feed</title>
+    <link>https://example.com/sample</link>
+    <description>A small bundled sample feed for offline use. Headlines are generic examples, not reports about real companies.</description>
+    <item>
+      <title>New open-source model cuts inference costs for small teams</title>
+      <link>https://example.com/news/open-model-costs</link>
+      <description>A community-released model runs on a single GPU and uses less memory than earlier small models. Early testers report faster responses on everyday prompts.</description>
+      <pubDate>Sat, 07 Nov 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>New open source model cuts inference cost for small teams</title>
+      <link>https://example.com/news/open-model-costs-2</link>
+      <description>A community-released model runs on a single GPU and uses less memory than earlier small models. Early testers report faster responses on everyday prompts.</description>
+      <pubDate>Sat, 07 Nov 2026 09:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Researchers release a toolkit for testing chatbot safety</title>
+      <link>https://example.com/news/chatbot-safety-toolkit</link>
+      <description>The toolkit checks chatbots for rude replies, leaked instructions, and hallucinated facts. It ships with twenty ready-made test cases and a plain-text report.</description>
+      <pubDate>Sat, 07 Nov 2026 08:15:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Venture funding for AI tools stays strong this quarter</title>
+      <link>https://example.com/news/ai-funding-quarter</link>
+      <description>Investors continue to back small firms building tools on top of large language models. Founders say hiring for applied AI roles is still the main bottleneck.</description>
+      <pubDate>Fri, 06 Nov 2026 17:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Remote work tools see steady demand from small firms</title>
+      <link>https://example.com/news/remote-tools-demand</link>
+      <description>Small firms keep buying scheduling and meeting software as hybrid work settles into a routine. Vendors compete on price and on simple setup rather than new features.</description>
+      <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Astronomers spot a bright comet in the early morning sky</title>
+      <link>https://example.com/news/morning-comet</link>
+      <description>The comet should stay visible to the naked eye for another week before it fades. Observers in dark areas will have the best view just before dawn.</description>
+      <pubDate>Fri, 06 Nov 2026 06:45:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Study finds evening walks linked to better sleep</title>
+      <link>https://example.com/news/evening-walks-sleep</link>
+      <description>People who walked for thirty minutes after dinner fell asleep faster in a small study. Researchers caution that the result needs a larger trial to confirm.</description>
+      <pubDate>Thu, 05 Nov 2026 15:20:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>City library extends weekend hours for students</title>
+      <link>https://example.com/news/library-weekend-hours</link>
+      <description>The main branch will now open two hours earlier on Saturdays and Sundays during exam season. Staff say the change follows a survey of student visitors.</description>
+      <pubDate>Thu, 05 Nov 2026 10:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
