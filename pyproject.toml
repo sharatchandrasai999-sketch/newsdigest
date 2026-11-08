@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "newsdigest"
+version = "0.1.0"
+description = "Daily markdown news digest from RSS feeds, with dedupe and extractive mock summaries."
+requires-python = ">=3.10"
+dependencies = ["requests>=2.0"]
+
+[project.scripts]
+newsdigest = "newsdigest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+newsdigest = ["data/*.xml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
