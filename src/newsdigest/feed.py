@@ -51,21 +51,22 @@ def fetch_feed(url: str) -> str | None:
         return None
 
 
+def _text(element, tag: str) -> str:
+    node = element.find(tag)
+    return (node.text or "").strip() if node is not None else ""
+
+
 def parse_feed(xml_text: str) -> list[Item]:
     """Parse RSS 2.0 XML with the stdlib only. Missing fields become ''."""
     root = ET.fromstring(xml_text)
     items: list[Item] = []
     for element in root.iter("item"):
-        def text(tag: str) -> str:
-            node = element.find(tag)
-            return (node.text or "").strip() if node is not None else ""
-
         items.append(
             Item(
-                title=text("title"),
-                link=text("link"),
-                description=text("description"),
-                pub_date=text("pubDate"),
+                title=_text(element, "title"),
+                link=_text(element, "link"),
+                description=_text(element, "description"),
+                pub_date=_text(element, "pubDate"),
             )
         )
     return items

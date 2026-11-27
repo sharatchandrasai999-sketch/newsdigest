@@ -7,11 +7,11 @@ from .feed import Item, collect, dedupe, parse_feed
 
 __all__ = [
     "Item",
+    "__version__",
     "collect",
     "dedupe",
     "parse_feed",
     "render_digest",
     "summarize",
     "topic_of",
-    "__version__",
 ]

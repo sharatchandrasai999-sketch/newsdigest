@@ -44,7 +44,8 @@ def main(argv: list[str] | None = None) -> int:
         )
     digest = render_digest(items)
     if args.out:
-        open(args.out, "w", encoding="utf-8").write(digest)
+        with open(args.out, "w", encoding="utf-8") as f:
+            f.write(digest)
         print(f"Digest written to {args.out}")
     else:
         print(digest)
